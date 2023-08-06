@@ -1,0 +1,9 @@
+body{
+  box-sizing: border-box;
+  background-color: beige ;
+  
+}
+*{
+  padding:0;
+  margin:0;
+}

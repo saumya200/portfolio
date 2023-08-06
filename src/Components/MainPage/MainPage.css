@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Dongle:wght@700&family=Gloock&family=Kanit&family=Open+Sans:wght@300&family=Poppins&family=Roboto:wght@300&family=Ubuntu&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Dongle:wght@700&family=Gloock&family=Kanit&family=Open+Sans:wght@300&family=Poppins&family=REM&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+.main--page h1{
+    font-family: 'Borel', cursive;
+}
+
+
+.profile--image{
+    width:200px;
+    height:200px;
+
+}
+.profile h1{
+    font-family: 'REM', sans-serif;
+}
+.profile p{
+    font-family: 'REM', sans-serif;
+}
+.profile a{
+    margin-left: 100px;
+    position:absolute;
+    margin-top:40px;
+    font-family: 'REM', sans-serif;
+
+}
+@media screen and (min-width:420px){
+    .profile--image{
+        width:250px;
+        height:250px;
+        /* margin-right: 100px; */
+    }
+    .profile h1{
+        margin-left: 50px;
+    }
+    .profile p{
+        margin-left: 40px;
+    }
+    .profile a{
+        margin-left: 120px;
+        margin-top:100px;
+    }
+    
+}
+@media screen and (min-width:640px){
+    .profile--image{
+        /* margin-left: 500px; */
+        position: relative;
+        left: 90px;
+        width:300px;
+        height:300px;
+    }
+    .profile p {
+        margin-left: 60px;
+    }
+    .profile a{
+        margin-left: 250px;
+    }
+
+    
+}
+@media screen and (min-width:768px) {
+    .main--page h1{
+        text-align: start;
+        margin-left:20px;
+    }
+    .social--icons{
+        margin-left:550px;
+        position: absolute;
+        top:30px;
+    }
+    .profile h1{
+        font-size: 50px;
+        /* text-align: left; */
+        position: absolute;
+        top:150px;
+        line-height: 1.5;
+        white-space: pre-wrap;
+        right:350px;
+    }
+    .profile p{
+        font-size: 20px;
+        /* margin-right:100px; */
+        padding-right:300px;
+        position: absolute;
+        top:450px;
+        right:20px;
+        left:-40px;
+        
+    }
+    .profile--image{
+        left: 250px;
+        width:400px;
+        height:400px;
+        border-radius: none;
+    }
+    .profile a{
+        position: absolute;
+        right: 590px;
+        white-space: nowrap;
+        bottom:200px;
+
+    }
+}
+@media screen and (min-width:1024px){
+    .main--page h1{
+        margin-left:50px;
+    }
+    .social--icons{
+        margin-left: 750px;
+    }
+    .profile--image{
+        left: 450px;
+    }
+    .profile p{
+        left :-10px;
+        top: 350px;
+        right:150px;
+    }
+    .profile a{
+        right:810px;
+        bottom:300px;
+    }
+    
+}
+@media screen and (min-width:1280px) {
+    .main--page h1{
+        margin-left: 150px;
+    }
+    .social--icons{
+        margin-left: 900px;
+    }
+    .profile h1{
+        margin-right: 200px;
+    }
+    .profile--image{
+        left: 700px;
+    }
+    .profile p{
+        left: 90px;
+    }
+    .profile a{
+        right: 970px;
+    }
+    
+    
+}
+@media screen and (min-width:1536px){
+    .social--icons{
+        margin-left:1200px;
+    }
+    .profile--image{
+        left:900px;
+    }
+    .profile h1{
+        font-size: 60px;
+        margin-right:500px;
+    }
+    .profile p{
+        font-size: 25px;
+        margin-right: 50px;
+    }
+    .profile a{
+        right: 1220px;
+        top: 400px;
+    }
+    
+}
