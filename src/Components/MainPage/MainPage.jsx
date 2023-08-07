@@ -5,11 +5,12 @@ import linkedin from "../../Images/linkedin.png";
 import twitter from "../../Images/twitter.png";
 import saumya from "../../Images/saumya.png";
 // import saumya from "../../Images/thumbnail.jpeg";
+import "animate.css";
 
 function MainPage() {
   return (
     <div className="main--page">
-      <h1 className="text-3xl font-bold text-black text-center mt-10">
+      <h1 className=" text-3xl font-bold text-black text-center mt-10">
         saumyareddy
       </h1>
       <div className="social--icons flex justify-center">
@@ -30,7 +31,7 @@ function MainPage() {
         <img src={saumya} className="profile--image ml-20 mt-10" />
         <h1 className="font-bold text-3xl ml-8 mr-10 mt-8">
           Nice to meet you! I am
-          <span className="underline decoration-4 decoration-green-400">
+          <span className="profile--name underline decoration-4 decoration-green-400">
             {" "}
             Saumya Reddy.
           </span>
@@ -41,7 +42,7 @@ function MainPage() {
         </p>
         <a
           href="#"
-          className="text-2xl underline decoration-4 decoration-green-400 ">
+          className=" profile--contact animate__animated animate__pulse text-2xl underline decoration-4 decoration-green-400 ">
           CONTACT ME
         </a>
       </div>

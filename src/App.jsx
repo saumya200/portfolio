@@ -5,6 +5,7 @@ import "./App.css";
 import MainPage from "./Components/MainPage/MainPage";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
+import "animate.css";
 
 function App() {
   // const [count, setCount] = useState(0)

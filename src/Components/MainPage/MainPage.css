@@ -26,6 +26,22 @@
     font-family: 'REM', sans-serif;
 
 }
+/* .animate__animated.animate__bounce {
+  --animate-duration: 2s;
+} */
+/* .profile--contact {
+    animation:bounce;
+    animation-duration:2s;
+} */
+/* .profile--contact:hover{
+ animation: pulse;
+ animation-duration: 2s;
+} */
+.animate__animated.animate__bounce {
+  --animate-duration: 2s;
+}
+
+
 @media screen and (min-width:420px){
     .profile--image{
         width:250px;

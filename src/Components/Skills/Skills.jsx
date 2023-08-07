@@ -7,23 +7,23 @@ import react from "../../Images/reactW.png";
 
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills animate flip">
       <div className="skills--images lg:ml-56 xl:ml-80 2xl:ml-96">
         <img
           src={html}
-          className="html w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24"
+          className="html animate pop delay-1 w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24"
         />
         <img
           src={css}
-          className="css w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24"
+          className="css animate pop delay-2 w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24"
         />
         <img
           src={js}
-          className=" javascript w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24"
+          className=" javascript animate pop delay-3 w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24"
         />
         <img
           src={react}
-          className="react w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24"
+          className="react animate pop delay-4 w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24"
         />
       </div>
     </div>

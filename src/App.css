@@ -1,8 +1,13 @@
 body{
   box-sizing: border-box;
-  background-color: beige ;
-  
+  background-color: beige;
+  /* min-height: 100vh; */
 }
+
+@keyframes stretch{
+}
+
+
 *{
   padding:0;
   margin:0;
