@@ -11,6 +11,7 @@
 .profile--image{
     width:200px;
     height:200px;
+    
 
 }
 .profile h1{
@@ -20,33 +21,22 @@
     font-family: 'REM', sans-serif;
 }
 .profile a{
-    margin-left: 100px;
+
+    left:-30px;
     position:absolute;
-    margin-top:40px;
+    bottom:50px;
     font-family: 'REM', sans-serif;
 
 }
-/* .animate__animated.animate__bounce {
-  --animate-duration: 2s;
-} */
-/* .profile--contact {
-    animation:bounce;
-    animation-duration:2s;
-} */
-/* .profile--contact:hover{
- animation: pulse;
- animation-duration: 2s;
-} */
 .animate__animated.animate__bounce {
   --animate-duration: 2s;
 }
-
 
 @media screen and (min-width:420px){
     .profile--image{
         width:250px;
         height:250px;
-        /* margin-right: 100px; */
+        
     }
     .profile h1{
         margin-left: 50px;
@@ -55,24 +45,48 @@
         margin-left: 40px;
     }
     .profile a{
-        margin-left: 120px;
-        margin-top:100px;
+        top:650px;
     }
     
 }
+@media screen and (max-width:420px){
+   .profile--image{
+       width:250px;
+        height:250px;
+        position: relative;
+        left:25px;
+    }
+    .profile h1{
+        margin-left: 50px;
+    }
+    .profile p{
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+    .profile a{
+        margin-left: 140px;
+        position: absolute;
+        bottom:150px;
+    }   
+}
 @media screen and (min-width:640px){
     .profile--image{
-        /* margin-left: 500px; */
         position: relative;
-        left: 90px;
+        left: 120px;
         width:300px;
         height:300px;
     }
     .profile p {
-        margin-left: 60px;
+        margin-left: 100px;
+        margin-right: 80px;
     }
     .profile a{
-        margin-left: 250px;
+        left:240px;
+        top:700px;
+    }
+    .profile h1{
+        margin-left:100px;
+        /* margin-right:100px; */
     }
 
     
@@ -80,44 +94,63 @@
 @media screen and (min-width:768px) {
     .main--page h1{
         text-align: start;
-        margin-left:20px;
+        margin-left:50px;
     }
     .social--icons{
-        margin-left:550px;
         position: absolute;
         top:30px;
+        right:200px;
     }
     .profile h1{
-        font-size: 50px;
-        /* text-align: left; */
+        font-size: 35px;
         position: absolute;
         top:150px;
         line-height: 1.5;
         white-space: pre-wrap;
-        right:350px;
+        right:270px;
     }
     .profile p{
-        font-size: 20px;
-        /* margin-right:100px; */
-        padding-right:300px;
+        font-size: 18px;
+        font-weight: lighter;
+        /* padding-right:300px; */
         position: absolute;
-        top:450px;
-        right:20px;
-        left:-40px;
+        top:300px;
+        right:200px;
+        text-align: justify;
+        line-height: 1.5;
+        left:-50px;
+        /* white-space: wrap; */
         
     }
     .profile--image{
-        left: 250px;
-        width:400px;
-        height:400px;
+        left: 350px;
+        top:30px;
+       width:235px;
+        height:235px;
         border-radius: none;
     }
     .profile a{
-        position: absolute;
-        right: 590px;
+        left:50px;
         white-space: nowrap;
-        bottom:200px;
+        top:500px;
 
+    }
+}
+@media screen and (min-width:820px){
+    .main--page h1{
+        margin-left: 50px;
+    }
+    .profile--image{
+        left: 450px;
+        top:28px;
+        max-width:300px;
+        max-height:300px;
+    }
+    .profile p{
+        left:-12px;
+        position: absolute;
+        top:400px;
+        
     }
 }
 @media screen and (min-width:1024px){
@@ -128,7 +161,7 @@
         margin-left: 750px;
     }
     .profile--image{
-        left: 450px;
+        left: 550px;
     }
     .profile p{
         left :-10px;
@@ -136,8 +169,7 @@
         right:150px;
     }
     .profile a{
-        right:810px;
-        bottom:300px;
+        top:580px;
     }
     
 }
@@ -152,13 +184,13 @@
         margin-right: 200px;
     }
     .profile--image{
-        left: 700px;
+        left: 720px;
     }
     .profile p{
         left: 90px;
     }
     .profile a{
-        right: 970px;
+        left:152px;
     }
     
     
@@ -179,8 +211,12 @@
         margin-right: 50px;
     }
     .profile a{
-        right: 1220px;
-        top: 400px;
+        top: 600px;
     }
     
+}
+@media screen and (min-width:1700px){
+    .profile--image{
+        left:1050px;
+    }
 }

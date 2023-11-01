@@ -1,8 +1,7 @@
 
 .skills--images{
-    /* position:absolute; */
-    margin-left: 150px;
-    margin-top: 350px;
+    position: absolute;
+    top:900px;
     
 }
 .animate{
@@ -40,7 +39,8 @@ animation-delay: 0.8s;
 animation-delay: 0.9s;
 }
 .css, .javascript, .react{
-    margin-top:20px;
+    position: absolute;
+    top:20px;
 }
 @media screen and (prefers-reduced-motion: reduce) {
   .animate {
@@ -49,64 +49,109 @@ animation-delay: 0.9s;
 }
 @media screen and (min-width:420px){
     .skills--images{
-        margin-left:180px;
-        /* width:200px;
-        height:200px; */
+        left:170px;
     }
-    .css, .javascript, .react{
-        margin-top:50px;
+    .css{
+        top:100px;
+    }
+    .javascript{
+        top:200px;
+    }
+    .react{
+        top:300px;
+    }
+
+    
+}
+@media screen and (max-width:420px){
+    .skills--images{
+        left:170px;
+    }
+    .css{
+        top:100px;
+    }
+    .javascript{
+        top:200px;
+    }
+    .react{
+        top:300px;
     }
 
     
 }
 @media screen and (min-width:640px){
     .skills--images{
-        margin-left:280px;
+        left:280px;
         
     }
-     .css, .javascript, .react{
-        margin-top:70px;
+     .css{
+        top:150px;
+
+     } 
+     .javascript{
+        top:300px;
+
+     } 
+     .react{
+        top:450px;
     }
     
 }
 @media screen and (min-width:768px){
     .skills--images{
-        margin-left:320px;
+        left:270px;
+        top:700px;
+    }
+     .css{
+       top:120px;
+     } 
+     .javascript{
+        top:240px;
+
+     } 
+     .react{
+        top:360px;
         
     }
-     .css, .javascript, .react{
-        margin-top:70px;
-    }
     
+}
+@media screen and (min-width:820px){
+    .skills--images{
+        left:100px;
+        top:900px;
+        
+    }
+    .css{
+        position: absolute;
+        left:180px;
+        top:0px;
+    }
+    .javascript{
+        position: absolute;
+        left:350px;
+        top:0px;
+    }
+    .react{
+        position: absolute;
+        left:520px;
+        top:0px;
+    }
 }
 @media screen and (min-width:1024px){
-    /* .skills--images{
-        margin-left:280px;  
-    } */
     .skills--images{
-        display:flex;
-        justify-content:flex-start;
-        flex-wrap: nowrap;
-        /* padding-right: 600px; */
-        
-        
-    }
-    /* .skills{
-        margin-right:800px;
-    } */
-    .html{
-        margin-top: 70px;
-    }
-     .css, .javascript, .react{
-        margin-top:70px;
-        margin-left:70px;
-    }
-    
-   
-    
+        top:800px;
+        left:0px;   
+    }   
 }
 @media screen and (min-width:1280px){
-    .css, .javascript, .react{
-        margin-left:100px;
+}
+@media screen and (min-width:1536px){
+    .skills--images{
+        left:100px;
+    }
+}
+@media screen and (min-width:1700px){
+    .skills--images{
+        left:150px;
     }
 }
